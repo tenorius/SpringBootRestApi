@@ -1,0 +1,6 @@
+c:\>curl.exe -i -X POST -H "Content-Type:application/json" -d "{\"nome\":\"ten\",\"telefone\":\"33417791\"}" localhost:8080/contatoes
+
+
+
+
+c:\>curl.exe -i -X POST -H "Content-Type:application/json" -d "{\"nome\":\"ten\",\"data\":\"2017-01-01\",\"operadora\":{\"nome\":\"Tim\",\"codigo\":12,\"categoria\":\"Celular\",\"preco\":2.0},\"telefone\":\"33417791\",\"cor\":\"blue\"}" localhost:8080/contatoes
