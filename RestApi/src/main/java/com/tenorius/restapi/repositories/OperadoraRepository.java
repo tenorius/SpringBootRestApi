@@ -9,7 +9,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import com.tenorius.restapi.entities.Operadora;
 
-@RepositoryRestResource
+@RepositoryRestResource(exported = true)
 public interface OperadoraRepository extends CrudRepository<Operadora, String>{
 
 }

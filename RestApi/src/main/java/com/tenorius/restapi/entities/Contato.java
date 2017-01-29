@@ -22,7 +22,7 @@ public class Contato {
 	private String nome;
 	private Date data;
 	
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(fetch = FetchType.EAGER)
 	private Operadora operadora;
 	private String telefone;
 	private String cor;
@@ -67,6 +67,7 @@ public class Contato {
 	public void setData(Date data) {
 		this.data = data;
 	}
+	
 	
 	public Operadora getOperadora() {
 		return operadora;
